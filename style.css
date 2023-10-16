@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: rgb(200, 171, 247);
+    background-image: url("https://i.pinimg.com/originals/de/34/12/de3412e3c5d2ed0b11ec8291a28a3db5.gif");
     width: 100%;
+    background-size: 100% 100%;
     display: flex;
     /* Centrarlo de manera vertical */
     align-items: center;
@@ -18,7 +19,7 @@ body {
 
 main {
     background-color: rgba(179, 223, 236, 0.637) !important;
-    width: 40%;
+    width: 50%;
 }
 
 section {
@@ -73,4 +74,15 @@ th{
 
 th,td{
     padding: 1rem;
+}
+
+th{
+    border: 2px solid rgb(83, 29, 209); 
+}
+td{
+    border: 2px solid rgb(83, 29, 209); 
+}
+
+iframe{
+    margin-left: 5%;
 }
